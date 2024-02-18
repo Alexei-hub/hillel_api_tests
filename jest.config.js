@@ -2,7 +2,7 @@
  * For a detailed explanation regarding each configuration property, visit:
  * https://jestjs.io/docs/configuration
  */
-
+require('dotenv').config()
 /** @type {import('jest').Config} */
 const config = {
   // All imported modules in your tests should be mocked automatically
